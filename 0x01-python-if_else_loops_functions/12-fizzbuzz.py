@@ -5,6 +5,6 @@ for i in range(1, 101):
     elif i % 3 == 0:
         print('Fizz', end=' ')
     elif i % 5 == 0:
-        print('Buzz', new=' ')
+        print('Buzz', end=' ')
     else:
-        print(i, new=' ')
+        print(i, end=' ')
