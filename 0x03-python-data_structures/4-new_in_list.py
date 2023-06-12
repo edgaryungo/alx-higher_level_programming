@@ -5,5 +5,5 @@ def new_in_list(my_list, idx, element):
     length = len(my_list)
 
     if 0 < idx > length - 1:
-        return cpy[idx] = element
+        cpy[idx] = element
     return cpy
