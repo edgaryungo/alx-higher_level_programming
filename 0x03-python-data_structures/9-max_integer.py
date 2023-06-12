@@ -2,6 +2,7 @@
 def max_integer(my_list=[]):
     if len(my_list) == 0:
         return None
-    max_int = my_list.sort()
+    
+    my_list.sort()
 
-    return max_int[-1]
+    return my_list[-1]
