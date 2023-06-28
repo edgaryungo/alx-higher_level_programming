@@ -5,3 +5,4 @@ class Square:
     print()
     """Print new line at th end
     """
+    pass
