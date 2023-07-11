@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-""" Module that contains a function that returns the number of lines
-    of a text file
-"""
-
+""" Module that contains a function that returns the number of lines of a text file"""
 
 def number_of_lines(filename=""):
     """ Function that reads from a file and prints its number of lines
