@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""based on 5-base_geometry.py"""
 class BaseGeometry:
     """ Class that defines the attributes of Geometric Shapes """
 

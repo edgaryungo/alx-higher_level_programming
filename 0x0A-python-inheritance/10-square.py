@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""based on 5-base_geometry.py"""
 Rectangle = __import__('9-rectangle').Rectangle
 
 
