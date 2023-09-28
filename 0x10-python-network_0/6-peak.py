@@ -3,6 +3,21 @@
 
 
 def find_peak(list_of_integers):
+    """
+    Find a peak in a list of unsorted integers.
+
+    Args:
+        list_of_integers (list): The list of unsorted integers.
+
+    Returns:
+        int or None: The peak integer found in the list or None if the list is empty.
+
+    Note:
+        There may be more than one peak in the list.
+
+    Complexity:
+        This algorithm has a time complexity of O(log(n)).
+    """
     if not list_of_integers:
         return None
 
